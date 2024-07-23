@@ -1,0 +1,297 @@
+  <!--
+  =========================================================
+  * Material Dashboard 2 - v3.1.0
+  =========================================================
+
+  * Product Page: https://www.creative-tim.com/product/material-dashboard
+  * Copyright 2023 Creative Tim (https://www.creative-tim.com)
+  * Licensed under MIT (https://www.creative-tim.com/license)
+  * Coded by Creative Tim
+
+  =========================================================
+
+  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  -->
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <title>
+      BACKEND PORTOFOLIO
+    </title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+    <!-- Nucleo Icons -->
+    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <!-- CSS Files -->
+    <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
+    <!-- Nepcha Analytics (nepcha.com) -->
+    <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+
+
+    <style>
+        /* body {
+          background-color: #fff0bd ; 
+        }
+        .container {
+          margin-top: 50px;
+        }
+        .card {
+          border: none;
+          border-radius: 15px;
+          background: linear-gradient(145deg, #ffffff, #ffffff);
+          box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+          background: #ff9800;
+          border-bottom: none;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+          color: white;
+        } */
+        .btn-custom {
+          background-color: #ff9800;
+          color: white;
+        }
+        .btn-custom:hover {
+          background-color: #f57c00;
+        }
+        .custom-select {
+            width: auto; /* Adjust the width as needed */
+        }
+      </style>
+
+      
+  </head>
+
+  <body class="g-sidenav-show  bg-gray-200">
+    <aside
+            class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark"
+            id="sidenav-main">
+            <div class="sidenav-header">
+                <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
+                    aria-hidden="true" id="iconSidenav"></i>
+                <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard "
+                    target="_blank">
+                    <img src="../assets/img/logomaxid.png" class="navbar-brand-img h-100" alt="main_logo">
+                </a>
+            </div>
+            <hr class="horizontal light mt-0 mb-2">
+            <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active bg-gradient-warning" href="../pages/dashboard.html">
+                            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                                <i class="material-icons opacity-10">dashboard</i>
+                            </div>
+                            <span class="nav-link-text ms-1">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white  " href="../pages/calendar.html">
+                          <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                              <i class="material-icons opacity-10">table_view</i>
+                          </div>
+                          <span class="nav-link-text ms-1">Minutes Of Meeting</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white " href="javascript:void(0)">
+                          <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                              <i class="material-icons opacity-10">person</i>
+                          </div>
+                          <span class="nav-link-text ms-1">Profile</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white " href="javascript:void(0)">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="material-icons opacity-10">person</i>
+                        </div>
+                        <span class="nav-link-text ms-1">Sign Out</span>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        </aside>
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+      <!-- Navbar -->
+      <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
+        <div class="container-fluid py-1 px-3">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+              <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="calendar.html">Minutes Of Meeting</a></li>
+              <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Edit Data</li>
+            </ol>
+            <h6 class="font-weight-bolder mb-0">Edit Data</h6>
+          </nav>
+          <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+            <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+            </div>
+            <ul class="navbar-nav  justify-content-end">
+              <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+                <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                  <div class="sidenav-toggler-inner">
+                    <i class="sidenav-toggler-line"></i>
+                    <i class="sidenav-toggler-line"></i>
+                    <i class="sidenav-toggler-line"></i>
+                  </div>
+                </a>
+              </li>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="container-fluid py-4 mt-4 bord">
+        <div class="row">
+            <div class="col-md-12 ">
+              <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                  <h4>Edit Data</h4>
+                </div>
+                <div class="card-body">
+                  <form action="/submit" method="post">
+                    <div class="form-group">
+                        <label for="nama" class="fw-bold mt-3">Title</label>
+                        <div class="input-group input-group-outline w-100">
+                          <input type="text" class="form-control" id="nama" placeholder="Masukkan Title">
+                        </div>
+                        <label for="tag" class="fw-bold mt-3">Time</label>
+                        <div class="input-group input-group-outline w-100">
+                          <input type="text" class="form-control" id="nama" placeholder="Masukkan Time">
+                        </div>
+                        <label for="notes" class="fw-bold mt-3">Notes</label>
+                        <div class="input-group input-group-outline w-100">
+                          <textarea class="form-control" id="notes" placeholder="Masukkan Notes"></textarea>
+                        </div>
+                        <label for="pm_sign" class="fw-bold mt-3">Projek Manager Sign</label>
+                        <div class="input-group input-group-outline w-100">
+                          <button type="submit" class="btn btn-outline-success btn-block mt-4">Sign</button>
+                        </div>
+                      </div>
+          
+                      <p class="d-inline-flex gap-1">
+                        <a href="#" class="btn btn-warning:" role="button" id="toggle-link" data-bs-toggle="button">Update</a>
+                      </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/core/bootstrap.min.js"></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="../assets/js/plugins/chartjs.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script>
+        document.getElementById('gambar').addEventListener('change', function() {
+            const file = this.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const preview = document.getElementById('preview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+        
+
+        const subcategories = {
+        calendar: ["Desk Calendar", "Wall Calendar", "Planner"],
+        magazine: ["Fashion Magazine", "Travel Magazine", "Science Magazine"],
+        "social-media": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+        "corporate-design": ["Logo Design", "Brochure Design", "Business Card Design"]
+    };
+
+    // Fungsi untuk memperbarui pilihan subkategori berdasarkan kategori utama yang dipilih
+    function updateSubcategories(category) {
+        const subcategorySelect = document.getElementById("subcategory");
+        subcategorySelect.innerHTML = ''; // Menghapus semua opsi subkategori yang ada
+        
+        if (category && subcategories[category]) {
+            subcategories[category].forEach(function(subcategory) {
+                const option = document.createElement('option');
+                option.textContent = subcategory;
+                option.value = subcategory.toLowerCase().replace(/ /g, '-');
+                subcategorySelect.appendChild(option);
+            });
+            
+            // Tampilkan div subkategori
+            document.getElementById("subcategory-group").style.display = "block";
+        } else {
+            // Sembunyikan div subkategori jika tidak ada subkategori yang dipilih
+            document.getElementById("subcategory-group").style.display = "none";
+        }
+    }
+
+    // Panggil fungsi pertama kali untuk menampilkan subkategori untuk kategori yang terpilih saat ini
+    updateSubcategories(document.getElementById("category").value);
+    
+      // Data subkategori untuk setiap kategori
+    //   const subcategories = {
+    //         calender: ["Desk Calendar", "Wall Calendar", "Planner"],
+    //         magazine: ["Fashion Magazine", "Travel Magazine", "Science Magazine"],
+    //         "social-media": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+    //         "corporate-design": ["Logo Design", "Brochure Design", "Business Card Design"]
+    //     };
+
+    //     // Fungsi untuk memperbarui pilihan subkategori berdasarkan kategori utama yang dipilih
+    //     function updateSubcategories(category) {
+    //         const subcategorySelect = document.getElementById("subcategory");
+    //         subcategorySelect.innerHTML = ''; // Menghapus semua opsi subkategori yang ada
+            
+    //         if (category && subcategories[category]) {
+    //             subcategories[category].forEach(function(subcategory) {
+    //                 const option = document.createElement('option');
+    //                 option.textContent = subcategory;
+    //                 option.value = subcategory.toLowerCase().replace(/ /g, '-');
+    //                 subcategorySelect.appendChild(option);
+    //             });
+                
+    //             // Tampilkan div subkategori
+    //             document.getElementById("subcategory-group").style.display = "block";
+    //         } else {
+    //             // Sembunyikan div subkategori jika tidak ada subkategori yang dipilih
+    //             document.getElementById("subcategory-group").style.display = "none";
+    //         }
+    //     }
+    </script>
+    <script>
+      var win = navigator.platform.indexOf('Win') > -1;
+      if (win && document.querySelector('#sidenav-scrollbar')) {
+        var options = {
+          damping: '0.5'
+        }
+        Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+      }
+    </script>
+    <!-- Github buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="../assets/js/material-dashboard.min.js?v=3.1.0"></script>
+  </body>
+
+  </html>

@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    .body {
+        background-color: #000 ;
+    }
+    *{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    #container{
+        perspective: 35px;
+    }
+
+    .navbar{
+        background-color: #000;
+        color: #000;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        font-size: 1.2em !important;
+    }
+    
+    .nav-link :hover {
+        color: rgb(255, 255, 255) !important;
+        transition: 1s ease;
+    }
+    
+    .navbar-brand img {
+        height: 60px;
+    }
+
+    .navbar-scrolled {
+        background-color: yellow !important;
+        transition: background-color 0.3s;
+    }
+    
+    .btn .btn-outline-dark{
+        background-color: #000;
+        color: #ffffff;
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+        padding: 0px 60px;
+        border-radius: 20px;
+    }
+    .align-self-end{
+        align-self: end !important;
+    }
+    .contact{
+        margin-left: 78px;
+    }
+    .download{
+        padding: 9px !important;
+        width: 177px;
+    }
+    .learn{
+        padding: 9px !important;
+        width: 177px;
+        margin-left: 20px !important;
+    }
+    .tlsn{
+        margin-top: 186px;
+    }
+    .gambar1, .gambar2{
+        width:45%;
+    }
+    /* .hero-section .gambar1 {
+        position: absolute;
+        max-width: 24%;
+        height: auto;
+        margin-top: 20px;
+        right: 376px;
+        bottom: 100px;
+        z-index: 11;
+    }
+    .hero-section .gambar2 {
+        position: absolute;
+        max-width: 24%;
+        height: auto;
+        margin-top: 20px;
+        right: 300px;
+        bottom: 170px;
+        z-index: 10;
+    } */
+    .hero-section .fw-bold{
+        font-size: 4em;
+        color: #fff;
+    }
+    .hero-section p{
+        color: #fff;
+    }
+
+    .ror {
+        margin-top: -15px;
+        font-size: 4em; /* Ukuran teks */
+        font-weight: bold; /* Ketebalan teks */
+        background: linear-gradient(to right, #0bdddd, #0677e0c4); /* Gradien warna latar belakang */
+        -webkit-background-clip: text; /* Menggunakan teks sebagai mask untuk gradien */
+        color: transparent; /* Membuat teks asli transparan */
+    }
+    .meeting-section{
+        background-color: #191919;
+    }
+    .meeting-section .rawr{
+        margin-top: -400px;
+    }
+
+    .meeting-section h2{
+        font-weight: bold;
+        font-size: 3em;
+        color: white;
+    }
+    .meeting-section h3{
+        font-weight: bold;
+        font-size: 1.8em;
+        color: white;
+    }
+    .tgl{
+        margin-top: 0px !important;
+        margin-left: -3px !important;
+        width: 120px;
+        font-size: 12px !important;
+        background: grey;
+        border: 1px solid grey !important;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+    .meeting-section .note h3{
+        font-size: 2em;
+        color:#fff;
+    }
+    .meeting-section .td{
+        margin-left: 0;
+        background: linear-gradient(to right, #0bdddd, #0677e0c4); /* Gradient colors */
+    }
+    /* .line {
+        width: 3px; 
+        height: 100%; 
+        background-color: white; 
+        margin-right: 10px;
+    } */
+    
+    
+    .cil{
+        background-color: #474747;
+        color: #fff;
+        margin-left: -13px;
+        margin-top: -2px;
+    }
+    .testimonial-container {
+        background-color: #303030;
+        border: 2px solid #303030;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+        height: 50vh;
+    }
+
+    .testimonial-container p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+        margin: 0;
+    }
+    .testimonial-container li{
+        color: #fff;
+    }
+
+    .custom-modal3 .modal-dialog3 {
+        max-width: 600px;
+    }
+    
+    .custom-modal3 .modal-header3 {
+        background-color: #B5B5B5;
+        color: rgb(0, 0, 0);
+        justify-content: center;
+        padding: 15px;
+        text-align: center;
+        position: r;
+    }
+    
+    .custom-modal3 .modal-title3 {
+        margin: 0 auto;
+    }
+    
+    .custom-modal3 .modal-body3 {
+        background-color: #B5B5B5;
+        padding: 20px;
+    }
+    
+    .custom-modal3 .modal-body3 img {
+        max-width: 70%;
+        height: auto;
+    }
+    
+    .custom-modal3 .modal-footer3 {
+        background-color: #d9d9d9;
+        justify-content: flex-start;
+        border-top: none;
+        padding: 15px 20px;
+        text-align: start;
+    }
+    
+    .custom-modal3 .close img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .custom-modal3 .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        background: none;
+        border: none;
+        padding: 15px;
+    }
+    
+    .custom-modal1 .modal-dialog2 {
+        max-width: 400px;
+    }
+    
+    .custom-modal1 .modal-content2 {
+        background-color: #333;
+        color: #fff;
+        border-radius: 8px;
+    }
+    
+    .custom-modal1 .modal-header2 {
+        border-bottom: none;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .custom-modal1 .modal-title2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    .custom-modal1 .btn-close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: none;
+        border: none;
+        width: 24px;
+        height: 24px;
+    }
+    
+    .custom-modal1 .btn-close img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .custom-modal1 .modal-body2 {
+        padding: 1.5rem;
+    }
+    
+    .custom-modal1 .form-control {
+        background-color: #222;
+        color: #fff;
+        border: 1px solid #555;
+    }
+    
+    .custom-modal1 .btn-primary {
+        background-color: #444;
+        border: none;
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        width: auto;
+        padding: 0.25rem 0.75rem;
+        font-size: 14px;
+    }
+    
+    .custom-modal1 .form-group {
+        position: relative;
+        padding-bottom: 2.5rem;
+    }
+
+    /* /--responsive--/ */
+@media (max-width: 1920px) {
+   
+}
+
+@media (max-width: 1780px) {
+     /* .hero-section .gambar1 {
+        max-width: 20%;
+        bottom: -143px;
+    }
+    .hero-section .gambar2 {
+        max-width: 20%;
+        bottom: -65px;
+    } */
+}
+
+@media (max-width:1366px) {
+    .nav-link {
+        font-size: 1em !important;
+    }
+    .hero-section .fw-bold {
+        font-size: 3.91em;
+    }
+    /* .hero-section .gambar1 {
+        max-width: 20%;
+        bottom: -24px;
+        right: 275px;
+    }
+    .hero-section .gambar2 {
+        max-width: 20%;
+        bottom: 20px;
+        right: 225px;
+    } */
+}
+
+@media(max-width:1150px) {
+    .nav-link {
+        font-size: 12px !important;
+    }
+    .hero-section .fw-bold {
+        font-size: 3em;
+    }
+    .ror{
+        font-size: 3em;
+    }
+    /* .hero-section .gambar1 {
+        max-width: 20%;
+        bottom: 17px;
+        right: 239px;
+    }
+    .hero-section .gambar2 {
+        max-width: 20%;
+        bottom: 65px;
+        right: 185px;
+    } */
+}
+
+@media(max-width:1080px) {
+    .hero-section .fw-bold {
+        font-size: 2.7em;
+    }
+    .ror {
+        font-size: 2.8em;
+    }
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 70%;
+    }
+    .nav-link {
+        font-size: 14px !important;
+        margin-right: 10px;
+    }
+    /* .hero-section .gambar1 {
+        max-width: 20%;
+        bottom: 39px;
+        right: 210px;
+    }
+    .hero-section .gambar2 {
+        max-width: 20%;
+        bottom: 86px;
+        right: 175px;
+    } */
+}
+
+@media(max-width:991px) {
+    /* .hero-section .gambar1 {
+        max-width: 20%;
+        bottom: 70px;
+        right: 155px;
+    }
+    .hero-section .gambar2 {
+        max-width: 20%;
+        bottom: 107px;
+        right: 116px;
+    } */
+}
+
+@media(max-width:780px) {
+    .hero-section .fw-bold {
+        font-size: 2.7em;
+    }
+    .ror {
+        font-size: 2.8em;
+    }
+    .download {
+        padding: 9px !important;
+        width: 120px;
+    }
+    .learn {
+        padding: 9px !important;
+        width: 120px;
+        margin-left: 16px !important;
+    }
+    /* .hero-section .gambar1 {
+        max-width: 24%;
+        bottom: 70px;
+        right: 87px;
+    }
+    .hero-section .gambar2 {
+        max-width: 24%;
+        bottom: 107px;
+        right: 54px;
+    } */
+}
+
+@media(max-width:768px) {
+
+}
+
+@media(max-width:667px) {
+    .hero-section .fw-bold {
+        font-size: 2.7em;
+    }
+    .ror {
+        font-size: 2.8em;
+    }
+    .download {
+        padding: 9px !important;
+        width: 120px;
+    }
+    .hero-section .gambar2 {
+        max-width: 30%;
+        bottom: 93px;
+        right: 25px;
+    }
+    /* .hero-section .gambar1 {
+        max-width: 30%;
+        bottom: 60px;
+        right: 57px;
+    } */
+    .kas{
+        font-size: 10px;
+    }
+    .footer-section p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:640px) {
+    /* .hero-section .gambar1 {
+        max-width: 32%;
+        bottom: 60px;
+        right: 30px;
+    }
+    .hero-section .gambar1 {
+        max-width: 32%;
+        bottom: 60px;
+        right: 30px;
+    } */
+    .meeting-section .tdt{
+        font-size: 10px;
+    }
+    .meeting-section .td{
+        font-size: 10px;
+    }
+    .meeting-section h3{
+        font-size: 1em;
+    }
+}
+
+@media(max-width:414px) {
+    .navbar-brand img {
+        height: unset;
+        width:90px;
+    }
+    .footer-section .kus{
+        font-size: 11px;
+    }
+    .raus{
+        display: none;
+    }
+    .tlsn{
+        margin-top: 56px;
+        margin-left:0;
+    }
+    .footer-section .kas{
+        margin-top: -31px !important;
+        font-size: 9px !important;
+    }
+    .footer-section p{
+        font-size: 9px !important;
+    }
+    .meeting-section {
+        margin-top: 0px !important;
+    }
+    .meeting-section h2 {
+        font-size: 2em;
+    }
+    .testimonial-container p{
+        font-size: 8px !important;
+    }
+    .meeting-section h6{
+        font-size: 8px !important;
+    }
+    .hero-section .fw-bold{
+        font-size: 1.88em;
+    }
+    .ror{
+        font-size: 1.88em;
+    }
+    .download {
+        padding: 9px !important;
+        margin-top: 6px;
+        margin-bottom: 49px;
+        width: 100px;
+        font-size: 13px !important;
+    }
+    .learn {
+        padding: 9px !important;
+        width: 100px;
+        margin-left: 16px !important;
+        font-size: 13px !important;
+    }
+    /* .hero-section .gambar1 {
+        max-width: 32%;
+        bottom: 150px;
+        right: 12px;
+    }
+    .hero-section .gambar2 {
+        max-width: 32%;
+        bottom: 175px;
+        right: 1px;
+    } */
+
+}
+
+@media(max-width:384px) {
+    /* .hero-section .gambar1 {
+        max-width: 28%;
+        bottom: 145px;
+        right: 12px;
+    }
+    .hero-section .gambar2 {
+        max-width: 28%;
+        bottom: 171px;
+        right: 1px;
+    } */
+    .navbar-brand img {
+        height: 50px;
+    }
+}
+
+@media(max-width:375px) {
+    /* .hero-section .gambar1 {
+        max-width: 27%;
+        bottom: 204px;
+        right: 28px;
+    }
+    .hero-section .gambar2 {
+        max-width: 27%;
+        bottom: 232px;
+        right: 9px;
+    } */
+}
+
+@media(max-width:320px) {
+    .navbar-brand img {
+        height: 41px;
+    }
+    /* .hero-section .gambar1 {
+        max-width: 25%;
+        bottom: 228px;
+        right: 9px;
+    }
+    .hero-section .gambar2 {
+        max-width: 25%;
+        bottom: 245px;
+        right: 1px;
+    } */
+    .hero-section .fw-bold {
+        font-size: 1.6em;
+    }
+    .ror {
+        font-size: 1.6em;
+    }
+    .download {
+        padding: 9px !important;
+        margin-top: 1px;
+        margin-bottom: 58px;
+        width: 70px;
+        font-size: 10px !important;
+    }
+    .learn {
+        padding: 9px !important;
+        width: 76px;
+        margin-left: 16px !important;
+        font-size: 10px !important;
+    }
+}
